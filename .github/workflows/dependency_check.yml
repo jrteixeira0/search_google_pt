@@ -1,5 +1,5 @@
 name: ["Secure Pipeline Test - Dependency Check"]
-on: ["push", "pull_reverse"]
+on: ["push", "pull_request"]
 
 jobs:
   depchecktest:
